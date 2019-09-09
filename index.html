@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <title>Alimentação Saudável</title>
 </head>
 
@@ -12,27 +21,38 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-success">
             <a class="navbar-brand" href="index.html"><img src="imagens/logo.jpg" width="50" height="50" alt=""></a>
-
+            <p></p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="navbar-brand nav-link" href="index.html"><strong>Home</strong></a>
+                    <p></p>
                     <a class="navbar-brand nav-link" href="projetos.html"><strong>Vitaminas</strong></a>
+                    <p></p>
                     <a class="navbar-brand nav-link" href="fotos.html"><strong>Imagens</strong></a>
+                    <p></p>
                     <a class="navbar-brand nav-link" href="fale.html"><strong>Fale Conosco</strong></a>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
-                            aria-label="Pesquisar">
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
-                    </form>
+                    <p></p>
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <form class="form-check-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+                                    aria-label="Pesquisar">
+                                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
-
     <p></p>
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-xs-10 col-sm-10 col-md-5">
+            <div class="col-xs-10 col-sm-10 col-md-5 container">
 
                 <h3 class="text-center"> A importância da boa alimentação?</h3>
                 <p></p>
@@ -47,13 +67,13 @@
                     O objetivo deste texto é abordar e discutir diversos assuntos relacionados à alimentação saudável a
                     partir dos 2 anos de idade, ampliando os conhecimentos dos educadores sobre o tema.</p>
             </div>
-            <figure class="figure-img col-xs-10 col-sm-10 col-md-5">
+            <figure class="figure-img col-xs-10 col-sm-10 col-md-5 container">
                 <img src="imagens/10.jpg" class="figure-img img-fluid rounded " alt="">
             </figure>
         </div>
         <p></p>
         <div class="row ">
-            <div class="col-xs-10 col-sm-10 col-md-5">
+            <div class="col-xs-10 col-sm-10 col-md-5 container">
 
                 <h3 class="text-left"> O que são alimento?</h3>
                 <p></p>
@@ -68,13 +88,13 @@
                     certas substâncias que se transformam apenas em energia após a
                     digestão, como é o caso das bebidas álcoólicas e refrigerantes.</p>
             </div>
-            <figure class="figure-img col-xs-10 col-sm-10 col-md-5">
+            <figure class="figure-img col-xs-10 col-sm-10 col-md-5 container">
                 <img src="imagens/11.jpg" class="figure-img img-fluid rounded " alt="">
             </figure>
         </div>
         <p></p>
         <div class="row ">
-            <div class="col-xs-10 col-sm-10 col-md-5">
+            <div class="col-xs-10 col-sm-10 col-md-5 container">
 
                 <h3 class="text-right text-uppercase"> O que são nutrientes?</h3>
                 <p></p>
@@ -85,13 +105,13 @@
                     absorvidos (processo pelo qual os nutrientes chegam ao intestino
                     e, daí, passam para o sangue, agindo sobre o organismo).</p>
             </div>
-            <figure class="figure-img col-xs-10 col-sm-10 col-md-5">
+            <figure class="figure-img col-xs-10 col-sm-10 col-md-5 container">
                 <img src="imagens/12.jpg" class="figure-img img-fluid rounded " alt="">
             </figure>
         </div>
         <p></p>
         <div class="row ">
-            <div class="col-xs-10 col-sm-10 col-md-5">
+            <div class="col-xs-10 col-sm-10 col-md-5 container">
 
                 <h3 class="text-justify font-weight-bold">O que é caloria?</h3>
                 <p></p>
@@ -104,13 +124,13 @@
                     alimentos são divididos em grupos, pelas semelhanças que apresentam, <del>sendo uma delas a
                         concentração de nutrientes.</del></p>
             </div>
-            <figure class="figure-img col-xs-10 col-sm-10 col-md-5">
+            <figure class="figure-img col-xs-10 col-sm-10 col-md-5 container">
                 <img src="imagens/13.jpg" class="figure-img img-fluid rounded " alt="">
             </figure>
         </div>
         <p></p>
         <div class="row ">
-            <div class="col-xs-10 col-sm-10 col-md-5">
+            <div class="col-xs-10 col-sm-10 col-md-5 container">
 
                 <h3 class="text-justify font-italic">O que são macronutrientes?</h3>
                 <p></p>
@@ -119,7 +139,7 @@
                     nos alimentos. São especificamente os carboidratos, as gorduras e
                     as proteínas.</p>
             </div>
-            <figure class="figure-img col-xs-10 col-sm-10 col-md-5">
+            <figure class="figure-img col-xs-10 col-sm-10 col-md-5 container">
                 <img src="imagens/14.jpg" class="figure-img img-fluid rounded " alt="">
             </figure>
         </div>
@@ -129,14 +149,10 @@
     <div class="container">
         <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar com grupos de botões">
             <div class="btn-group mr-2" role="group" aria-label="Primeiro grupo">
-                <a class=" btn-link" href="index.html"><button type="button" class="btn btn-success"><abbr
-                            title="Home">1</abbr></button></a>
-                <a class=" btn-link" href="projetos.html"><button type="button" class="btn btn-success"><abbr
-                            title="Vitaminas">2</abbr></button></a>
-                <a class=" btn-link" href="fotos.html"><button type="button" class="btn btn-success"><abbr
-                            title="Imagens">3</abbr></button></a>
-                <a class=" btn-link" href="fale.html"><button type="button" class="btn btn-success"><abbr
-                            title="Fale Conosco">4</abbr></button></a>
+                <a class=" btn-link" href="index.html"><button type="button" class="btn btn-success">1</button></a>
+                <a class=" btn-link" href="projetos.html"><button type="button" class="btn btn-success">2</button></a>
+                <a class=" btn-link" href="fotos.html"><button type="button" class="btn btn-success">3</button></a>
+                <a class=" btn-link" href="fale.html"><button type="button" class="btn btn-success">4</button></a>
             </div>
         </div>
     </div>
